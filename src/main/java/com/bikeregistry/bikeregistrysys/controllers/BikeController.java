@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/bikes")
 public class BikeController {
-
+    @GetMapping
     public List<Bike> list(){
         List<Bike> bikes = new ArrayList<>();
             return bikes;
